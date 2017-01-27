@@ -1,0 +1,58 @@
+
+head{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.heading{
+    background-color: rgba(	70, 130, 180, 0.2);
+    padding: 15px;
+    outline: gray solid thick;
+    outline-width: 10px;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: darkturquoise;
+    font-size: 26px;
+}
+body {
+    margin: 30px;
+    background-image: url("dark_embroidery.png");
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: darkturquoise;
+}
+
+.question{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.answers{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: cadetblue;
+     font-size: 20px;
+}
+
+.answers:hover {
+    cursor: pointer;
+}
+
+.scoreBox{
+    background-color: black;
+    top: 50px;
+    right: 50px;
+    position: fixed;
+    opacity: 0.5;
+}
